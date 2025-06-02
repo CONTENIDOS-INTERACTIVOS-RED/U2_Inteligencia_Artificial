@@ -1,10 +1,51 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Título tema'")
+    BannerInterno(:subTitulo="'3. Algoritmos básicos: regresión y clasificación'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
+
+      .bg-color-3.mb-5(data-aos="fade-up")
+        .row.justify-content-center.align-items-center
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema3/1.png', alt='')
+          .col-lg
+            .p-4
+              p.mb-0(data-aos="fade-up") Los principales algoritmos de aprendizaje supervisado, buscan realizar predicciones por medio de regresiones o lograr la clasificación en clases de los datos obtenidos, y para esto, se utilizan diferentes y procesos que permiten entrenar modelos que identifican las tendencias y analizan los datos, para poder predecir los resultados.
+
+      
   
       #t_3_1.titulo-segundo(data-aos="flip-up")
-        h2 #[span 3.1] Subtítulo tema
+        h2 #[span 3.1] Algoritmos de regresión
+
+
+      p A continuación, estudiemos algunos algoritmos de regresión.
+
+      .row.mb-5
+        .col-lg-8
+          h3 Regresión lineal
+
+          p(data-aos="fade-left") El ejemplo más sencillo es cuando se tiene la relación entre una variable de salida y una o varias variables de entrada, y esta relación se identifica que se puede aproximar de forma lineal, por lo que su comportamiento se podría caracterizar con la ecuación:
+      
+          .bg-color-5.p-4(data-aos="fade-left").mb-4
+            p.text-center
+              | y = β₀ + β₁x₁ + β₂x₂ + ⋯ + βₙxₙ + ε
+            p Donde:
+            ul
+              li #[strong y] es la variable dependiente (salida).
+              li #[em x₁, x₂, ..., xₙ] son las variables independientes (entradas).
+              li #[em β₀] es el término de intercepción o sesgo (bias).
+              li #[em β₁, β₂, ..., βₙ] son los coeficientes que representan el peso de cada variable independiente.
+              li #[em ε] es el término de error, que representa la variabilidad no explicada por el modelo.
+      
+
+          p En la siguiente figura se muestra el caso de tener varias variables de entrada; en esta situación, se genera un plano de n-dimensiones que permita identificar el comportamiento de los datos, con respecto a las diferentes variables.
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in")
+      
+      
+      
+
 
       .bg-full-width.border-top.actividad.bg-color-actividad
         .p-4.p-md-5

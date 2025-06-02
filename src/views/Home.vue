@@ -1,53 +1,51 @@
 <template lang="pug">
-.curso-container.d-flex.flex-column.min-vh-100
-  .container.d-flex.flex-column.justify-content-center.flex-grow-1.px-0.px-md-2
-    div.home-content.d-flex.flex-column-reverse.flex-lg-column.p-4.p-lg-0
-      .bg-white
-        .row.g-0
-          //- Columna izquierda con imagen
-          .d-none.d-xl-block.d-xl-flex.mb-4.mb-md-0.col-md-4.col-xl-6.imagen-section
-            img.img-fluid.h-full(
-              src="@/assets/portada/banner.png"
-              alt="Estudiante virtual"
-              style="max-width: 672px;"
-            )
-          .d-block.d-lg-none.mx-auto.mb-4.mb-lg-0.col-md-8.col-lg-6.imagen-section
-            img.img-fluid.h-full(
-              src="@/assets/portada/banner-mobile.png"
-              alt="Estudiante virtual"
-              style="max-width: 672px;"
-            )
-          //- Columna derecha con información
-          .col-xl-6.info-section
-            .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
-              h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
-
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
-              
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
-
-              .button-container.mt-auto
-                router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
-                  .iniciar-btn-container.w-100.w-md-auto
-                    span.iniciar-btn-text INICIAR
-                    .icon
-                      i.fas.fa-chevron-right
-
-      //- Footer
-      footer.footer.bg-white
-        .container.px-4.py-3
-          .row.justify-content-start.align-items-center
-            .col-lg-auto
-              img.logo-footer(
-                src="@/assets/portada/logo-footer.png"
-                alt="Logo Tecnológica del Oriente"
+  .curso-container.d-flex.flex-column.min-vh-100
+    .container.d-flex.flex-column.justify-content-center.flex-grow-1.px-0.px-md-2
+      div.home-content.d-flex.flex-column-reverse.flex-lg-column.p-4.p-lg-0
+        .bg-white
+          .row.g-0
+            //- Columna izquierda con imagen
+            .d-none.d-xl-block.d-xl-flex.mb-4.mb-md-0.col-md-4.col-xl-6.imagen-section
+              img.img-fluid.h-full(
+                src="@/assets/portada/banner.png"
+                alt="Estudiante virtual"
+                style="max-width: 672px;"
               )
-            .col-lg.px-0.d-none.d-lg-block
-              p.footer-text.mb-0 Todo el contenido de este curso es propiedad intelectual de Corporación Tecnológica del Oriente y está protegido por derechos de autor. No puede ser reproducido, distribuido, modificado ni compartido sin su autorización por escrito.
-              
-</template>
+            .d-block.d-lg-none.mx-auto.mb-4.mb-lg-0.col-md-8.col-lg-6.imagen-section
+              img.img-fluid.h-full(
+                src="@/assets/portada/banner-mobile.png"
+                alt="Estudiante virtual"
+                style="max-width: 672px;"
+              )
+            //- Columna derecha con información
+            .col-xl-6.info-section
+              .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
+                p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
+                h1.home-title.mb-4 {{ globalData.tituloUnidad }}
+                p.descripcion.mb-4 En la actualidad, el aprendizaje automático se ha consolidado como una de las herramientas más poderosas en el campo de la inteligencia artificial. Esta unidad ofrece una introducción a los principios fundamentales que permiten a los sistemas aprender a partir de datos y tomar decisiones sin ser programados de forma explícita. Se estudiarán los tipos de aprendizaje, sus algoritmos más utilizados, y su aplicación práctica en problemas cotidianos.
+  
+                p #[b ¡Prepárese para aplicar el aprendizaje automático en soluciones reales con impacto y precisión!]
+  
+                .button-container.mt-auto
+                  router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
+                    .iniciar-btn-container.w-100.w-md-auto
+                      span.iniciar-btn-text INICIAR
+                      .icon
+                        i.fas.fa-chevron-right
+  
+        //- Footer
+        footer.footer.bg-white
+          .container.px-4.py-3
+            .row.justify-content-start.align-items-center
+              .col-lg-auto
+                img.logo-footer(
+                  src="@/assets/portada/logo-footer.png"
+                  alt="Logo Tecnológica del Oriente"
+                )
+              .col-lg.px-0.d-none.d-lg-block
+                p.footer-text.mb-0 Todo el contenido de este curso es propiedad intelectual de Corporación Tecnológica del Oriente y está protegido por derechos de autor. No puede ser reproducido, distribuido, modificado ni compartido sin su autorización por escrito.
+                
+  </template>
 
 <script>
 export default {
