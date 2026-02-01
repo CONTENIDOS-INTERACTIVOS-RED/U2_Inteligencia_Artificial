@@ -6,24 +6,22 @@
     .bg-full-width-2.bg-fondo-1
       .px-4.px-md-5.py-4
 
-        .row.mb-5
-          .col-lg-4
+        .row.mb-4
+          .col-lg-5
             figure
               img(src="@/assets/curso/intro/1.png", data-aos="zoom-in")
-          .col-lg-8
+          .col-lg-7
             p(data-aos="fade-left").mb-4 En la actualidad, el aprendizaje automático (Machine Learning) se ha convertido en una de las herramientas más importantes dentro del ámbito de la tecnología y la ciencia de datos. Se trata de una disciplina que permite a las computadoras aprender a partir de datos, sin necesidad de ser programadas de manera explícita para cada tarea. 
 
         
             .bg-color-1.p-4(data-aos="fade-left").mb-4
-              .row.align-items-center
+              .row.align-items-start
                 .col-lg-auto
                   img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0 Su aplicación es amplia y abarca desde el reconocimiento de imágenes y la predicción de tendencias, hasta los sistemas de recomendación y la automatización de procesos. Comprender los principios fundamentales del aprendizaje automático, es esencial para cualquier persona interesada en el análisis de datos, la inteligencia artificial y el desarrollo de soluciones basadas en datos.
 
         
-            p(data-aos="fade-left").mb-4 El objetivo principal de esta unidad es que los estudiantes sean capaces de aplicar algoritmos básicos de aprendizaje automático, para resolver problemas sencillos y analizar sus resultados. 
-
 
         .row.mb-5
           .col-lg-8

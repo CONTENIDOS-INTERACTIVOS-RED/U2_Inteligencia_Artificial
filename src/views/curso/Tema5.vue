@@ -63,6 +63,29 @@
       .col-lg-4
         figure
           img(src="@/assets/curso/tema5/5.png", data-aos="zoom-in")
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/272010" target="_blank" rel="noopener noreferrer") Sáez López, J. (2024) Innovación y funciones docentes: ejemplos metodológicos y tecnológicos, con codificación creativa y aprendizaje automático. Editorial: UNED - Universidad Nacional de Educación a Distancia. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://web.learningml.org/taller-ia-con-learningml-en-el-aula-de-matematicas/" target="_blank" rel="noopener noreferrer") JuanDa. (2025) Taller: IA con LearningML en el Aula de Matemáticas. [blog] LearningML - AI made easy. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/kmbkXdvAtDY?si=O0yuV6Cdve-KjzwZ" target="_blank" rel="noopener noreferrer") Andalucia Conectada (2018, 2 de marzo) Webinar Machine Learning con Wolfram Rozas. 
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
     
     .bg-full-width.border-top.actividad.bg-color-actividad
       .p-4.p-md-5

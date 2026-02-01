@@ -48,6 +48,10 @@
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://youtu.be/4abskY3yccs?si=y8Gf1GvlrIOUd1Xn" target="_blank" rel="noopener noreferrer") KeepCoding Teach School. (2022, 18 de febrero) ¿Qué es el aprendizaje supervisado y no supervisado?.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.netcomlearning.com/blog/supervised-vs-unsupervised-learning" target="_blank" rel="noopener noreferrer") Jones, Ch. (2025, 30 de enero) Aprendizaje supervisado vs. no supervisado: Diferencias clave explicadas.  NetCom Learning.
+
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')

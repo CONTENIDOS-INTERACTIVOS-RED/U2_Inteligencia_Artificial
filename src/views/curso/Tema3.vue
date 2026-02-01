@@ -366,7 +366,7 @@
                   alt=""
                   style="width: 90px"
                 )
-                p.mb-4.text-center #[strong División de los datos]
+                p.mb-4.text-center #[strong Generación de múltiples árboles]
                 ul.lista-ul--color.color-dark.mb-0
                   li.mb-3
                     i.fas.fa-arrow-circle-right
@@ -509,11 +509,6 @@
 
             
 
-      .bg-full-width.border-top.actividad.bg-color-actividad
-        .p-4.p-md-5
-          #Actividad                
-            <Actividad :cuestionario="cuestionario"/>
-
       .bg-full-width.border-top.color-primario
         .p-4.p-md-5
           h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
@@ -529,6 +524,10 @@
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
                 a(href="https://www.youtube.com/live/pLB8eb4KZw4?si=lB4q5O4jqF-aONM_" target="_blank" rel="noopener noreferrer") KeepCoding Teach School (2021, 30 de noviembre) ¿Cómo generar un modelo de Machine Learning con AutoAI? 
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://caralingroup.com/noticias/aplicaciones-practicas-machine-learning/" target="_blank" rel="noopener noreferrer") Caralin Group (2020, 15 de diciembre) Siete aplicaciones prácticas del ‘machine learning’ en la vida cotidiana. 
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

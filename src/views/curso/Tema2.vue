@@ -124,6 +124,10 @@
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
                 a(href="https://youtu.be/Cobye0oZJ-w?si=SMXnvhyj0lVISdC7" target="_blank" rel="noopener noreferrer") Instituto de informática UACh.(2020, 12 de noviembre)  [INFO337] Regresión lineal. 
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://blogdatlas.wordpress.com/2020/06/28/algoritmos-supervisados-clasificacion-vs-regresion-datlas-research/" target="_blank" rel="noopener noreferrer") Datlas 8 (2020, 8 de junio) Algoritmos Supervisados: Clasificación vs. Regresión . Blog Datlas. 
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
